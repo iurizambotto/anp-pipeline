@@ -13,6 +13,8 @@ Antes de executar, é preciso alterar as variáveis de ambiente no arquivo `pyth
 Com as ferramentas necessárias e na pasta raiz deste repositório, execute o seguinte comando:
 `docker-compose up --build`
 
+Para analisar os dados gerados, utilize um software como DBeaver ou VSCode para conectar-se ao banco de dados PostgreSQL criado.
+
 ## Agendamento
 Para agendar o processo para executar mais de uma vez, por exemplo, a cada 10 minutos, altere o CRONTAB no arquivo python/Dockerfile
 
