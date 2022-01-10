@@ -1,0 +1,10 @@
+beautifulsoup4
+pandas==1.2.4
+sqlalchemy
+requests
+psycopg2-binary==2.9.1
+lxml
+bs4
+pyarrow
+fsspec
+s3fs
