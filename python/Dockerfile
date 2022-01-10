@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 ARG DEBIAN_FRONTEND=noninteractive
-ENV AWS_ACCESS_KEY_ID="AKIA4Z7LF4C5LQC74E5D"
-ENV AWS_SECRET_ACCESS_KEY="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"
+ENV AWS_ACCESS_KEY_ID="AWS_ACCESS_KEY_ID"
+ENV AWS_SECRET_ACCESS_KEY="AWS_SECRET_ACCESS_KEY"
 
 RUN apt-get update && apt-get install -y python3-pip software-properties-common && apt-get update
 

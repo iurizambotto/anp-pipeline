@@ -8,6 +8,8 @@ Para executar este pipeline, é necessário conter:
     - Docker;
     - Docker-compose.
 
+Antes de executar, é preciso alterar as variáveis de ambiente no arquivo `python/Dockerfile`. Essas variáveis são referentes as chaves de acesso da AWS, e são utilizadas para salvar os arquivos crus.
+
 Com as ferramentas necessárias e na pasta raiz deste repositório, execute o seguinte comando:
 `docker-compose up --build`
 
